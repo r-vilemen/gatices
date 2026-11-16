@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f0e7;
+    text-align: center;
+    }
+
+
+.opcoes a {
+    display: center;
+    background-color: #d8bfa8;
+    color: #5c4033;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.gatos {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #633926;
+}
+
+.gatos img {
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+}   
+
+.gatos2 {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #633926;
+}
+
+.gatos2 img {
+    float: right;
+    width: 400px;
+    margin-right: 10px;
+    padding-left: 20px;
+}   
+
+/* essa caixa de navegação é do curiosidades.html */
+.caixa-navegacao li a {
+    display: center;
+    background-color: #d8bfa8;
+    color: #5c4033;
+    padding: 8px 8px;
+    margin: 2px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.caixa-navegacao ol {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}   
+
+button {
+    background-color: #d8bfa8;
+    color: #5c4033;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.alimentacao {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #d8bfa8;
+    background-color: #5c4033;
+    border-radius: 30px;
+}
