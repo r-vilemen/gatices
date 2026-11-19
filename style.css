@@ -2,52 +2,52 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f6f0e7;
     text-align: center;
+    margin: 0;
     }
 
 
 .opcoes a {
-    display: center;
+    display: inline-block;
     background-color: #d8bfa8;
     color: #5c4033;
-    padding: 3px 8px;
-    margin: 2px;
+    padding: 8px 15px;
+    margin: 5px;
     border-radius: 30px;
     text-decoration: none;
 }
 
 .gatos {
     overflow: hidden;
-    margin-top: 50px;
-    margin-left: 50px;
+   margin: 50px;
     color: #633926;
 }
 
 .gatos img {
     float: left;
-    width: 400px;
-    margin-right: 10px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 15px;
 }   
 
 .gatos2 {
     overflow: hidden;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin: 50px;
     color: #633926;
 }
 
 .gatos2 img {
     float: right;
-    width: 400px;
-    margin-right: 10px;
-    padding-left: 20px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 15px;
 }   
 
 /* essa caixa de navegação é do curiosidades.html */
 .caixa-navegacao li a {
-    display: center;
+    display: inline-block;
     background-color: #d8bfa8;
     color: #5c4033;
-    padding: 8px 8px;
+    padding: 10px 15px;
     margin: 2px;
     border-radius: 30px;
     text-decoration: none;
@@ -61,13 +61,14 @@ body {
     padding: 0;
 }   
 
-button {
+.button {
     background-color: #d8bfa8;
     color: #5c4033;
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .alimentacao {
