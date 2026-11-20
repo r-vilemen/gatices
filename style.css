@@ -42,6 +42,13 @@ body {
     border-radius: 15px;
 }   
 
+.bannerg img {
+
+    border-radius: 20px
+
+
+}
+
 /* essa caixa de navegação é do curiosidades.html */
 .caixa-navegacao li a {
     display: inline-block;
