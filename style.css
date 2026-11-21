@@ -1,12 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f6f0e7;
-<<<<<<< HEAD
     text-align: center;
     margin: 50px;
-=======
     margin: 0;
->>>>>>> 497e2c2 (atualizacao do projeto Gatices)
     }
 header{
     display: flex;
@@ -468,13 +465,13 @@ td{
     font-size: 30px;
     text-align: center;
 }
-/*.habitos h3{
+.habitos h3{
     font-family: 'poppins', sans-serif;
     font-size: 30px;
     color: #0d0d0d;
     text-align: center;
-}*/
-.cuidar h2{
+}
+.cuidar h2 {
     font-family: 'poppins', sans-serif;
     font-size: 30px;
     color: #0d0d0d;
@@ -610,8 +607,9 @@ td{
 .cuidar p{
     font-family: 'poppins', sans-serif;
     font-size: 17px;
-    color: #0d0d0d;
+    color: #aa8383;
     text-align: center;
+    padding: 2px 15px;
 }
 .cent{
     display: flex;
@@ -690,7 +688,6 @@ td{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 .alimentacao {
     overflow: hidden;
     margin-top: 50px;
@@ -716,4 +713,3 @@ footer{
 
     padding: 25px;
 }
->>>>>>> 497e2c2 (atualizacao do projeto Gatices)
