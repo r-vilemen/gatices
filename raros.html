@@ -65,17 +65,45 @@
     </section>
 
    <section class="final">
-
         <h3>Fale conosco</h3>
         <h2>Vamos conversar sobre gatos?</h2>
-        <p>Você tem alguma dúvida ou sugestão ou curiosidade sobre o universo felino?</p><br>
+        <p>Você tem alguma dúvida ou sugestão ou curiosidade sobre o universo felino?</p>
         <p>Preencha o formulário abaixo e envie sua mensagem. Será um prazer receber seu contato!</p>
 
-    <div>
-        <img src="imagens.gatos/gato-laranja.webp" alt="Imagem de um gato laranja" width="400px">
-    </div>
+        <form id="formContato" onsubmit="enviarWhatsApp(event)">
+            <div class="campo">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
 
-  </section>
+            <div class="campo">
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="Dúvida sobre gatos raros">Dúvida sobre gatos raros</option>
+                    <option value="Sugestão de conteúdo">Sugestão de conteúdo</option>
+                    <option value="Curiosidade felina">Curiosidade felina</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Sua Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua dúvida ou mensagem aqui..." required></textarea>
+            </div>
+
+            <button type="submit" class="button btn-whatsapp">
+                Enviar via WhatsApp
+            </button>
+        </form>
+
+        <div>
+            <img src="imagens.gatos/gato-laranja.webp" alt="Imagem de um gato laranja" width="400px">
+        </div>
+   </section>
+
+   <footer>Gatices Curiosas — Porque todo gato tem uma história e toda curiosidade merece ser descoberta.</footer>
+
+   <script src="script.js"></script>
 
 </body>
 </html>
